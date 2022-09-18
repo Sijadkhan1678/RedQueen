@@ -38,4 +38,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./build RedQueen-2022.surge.sh --token ${{secrets.TOKEN}
+        run: surge ./build RedQueen-2022.surge.sh --token ${{secrets.TOKEN}}
